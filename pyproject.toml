@@ -7,7 +7,17 @@ authors = [
     { name = "Vivek Hegde", email = "vivekshegde2001@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "duckduckgo-search>=8.1.1",
+    "google-genai>=2.24.0",
+    "langchain>=1.4.0",
+    "langchain-community>=0.4.2",
+    "langchain-google-genai>=4.4.0",
+    "langchain-openai>=1.6.2",
+    "openai>=3.13.0",
+    "python-dotenv>=1.2.3",
+    "wikipedia>=1.4.0",
+]
 
 [project.scripts]
 langchain-tutorial = "langchain_tutorial:main"
